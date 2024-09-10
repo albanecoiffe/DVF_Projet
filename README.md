@@ -5,9 +5,17 @@ Ce projet vise à analyser les données de Demandes de Valeurs Foncières (DVF),
 
 L'objectif de ce projet est d'etre initier aux techniques de machine learning pour explorer et modéliser les transactions immobilières, en commençant par une préparation et une analyse exploratoire des données (EDA). Ensuite, nous avons utilisé des algorithmes d'apprentissage non supervisé pour identifier des clusters, suivis d'un modèle supervisé visant à prédire les prix des appartements dans certaines régions.
 
-## Phases du projet
+## 📊 Phases du projet
 - Préparation des données : nettoyage, fusion, sélection et transformation des données pour les rendre exploitables.
 - Analyse exploratoire : exploration des variables clés influençant les prix immobiliers et création de visualisations pertinentes (histogrammes, cartes géographiques, corrélations).
 - Modélisation :
 Apprentissage non supervisé : segmentation des données par clustering.
 Apprentissage supervisé : création d'un modèle prédictif pour estimer les prix des biens immobiliers.
+
+## 🛠️ Technologies Utilisées
+- `Python` : Langage de programmation principal.
+- `Pandas` : Pour la manipulation des données.
+- `Matplotlib` : Utilisé pour certaines visualisations supplémentaires.
+- `Jupyter Notebook`:  Environnement de développement interactif pour l'analyse des données et la modélisation.
+
+
