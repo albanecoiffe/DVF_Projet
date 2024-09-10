@@ -16,6 +16,6 @@ Apprentissage supervisé : création d'un modèle prédictif pour estimer les pr
 - `Python` : Langage de programmation principal.
 - `Pandas` : Pour la manipulation des données.
 - `Matplotlib` : Utilisé pour certaines visualisations supplémentaires.
+- `scikit-learn (sklearn)`: Implémentation des algorithmes de machine learning, y compris le clustering et la régression.
 - `Jupyter Notebook`:  Environnement de développement interactif pour l'analyse des données et la modélisation.
-
 
