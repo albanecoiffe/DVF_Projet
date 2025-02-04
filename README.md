@@ -1,21 +1,20 @@
-# Analyse des données DVF
+# DVF Data Analysis
 [The Jupyter Notebook](https://albanecoiffe.github.io/DVF_Projet/)
 
-Ce projet vise à analyser les données de Demandes de Valeurs Foncières (DVF), qui incluent les transactions immobilières réalisées en France au cours de 2022, à l'exception de l'Alsace, de la Moselle et de Mayotte. Ces données sont issues des actes notariés et des informations cadastrales et sont accessibles en tant que données ouvertes sur data.gouv.fr.
+This project aims to analyze the Demandes de Valeurs Foncières (DVF) dataset, which includes real estate transactions in France during 2022, excluding Alsace, Moselle, and Mayotte. These data, derived from notarial deeds and cadastral information, are publicly available on data.gouv.fr.
 
-L'objectif de ce projet est d'etre initier aux techniques de machine learning pour explorer et modéliser les transactions immobilières, en commençant par une préparation et une analyse exploratoire des données (EDA). Ensuite, nous avons utilisé des algorithmes d'apprentissage non supervisé pour identifier des clusters, suivis d'un modèle supervisé visant à prédire les prix des appartements dans certaines régions.
+The goal of this project is to explore and model real estate transactions using machine learning techniques, starting with data preparation and exploratory data analysis (EDA). We then applied unsupervised learning algorithms to identify clusters, followed by a supervised model to predict apartment prices in specific regions.
 
-## 📊 Phases du projet
-- Préparation des données : nettoyage, fusion, sélection et transformation des données pour les rendre exploitables.
-- Analyse exploratoire : exploration des variables clés influençant les prix immobiliers et création de visualisations pertinentes (histogrammes, cartes géographiques, corrélations).
-- Modélisation :
-Apprentissage non supervisé : segmentation des données par clustering.
-Apprentissage supervisé : création d'un modèle prédictif pour estimer les prix des biens immobiliers.
+## 📊 Project Phases
+- Data Preparation: Cleaning, merging, selecting, and transforming data for analysis.
+- Exploratory Analysis: Examining key variables influencing real estate prices and creating visualizations (histograms, geographic maps, correlation matrices).
+- Modeling:
+  - Unsupervised Learning: Segmenting data using clustering techniques.
+  - Supervised Learning: Developing a predictive model to estimate property prices.
 
-## 🛠️ Technologies Utilisées
-- `Python` : Langage de programmation principal.
-- `Pandas` : Pour la manipulation des données.
-- `Matplotlib` : Utilisé pour certaines visualisations supplémentaires.
-- `scikit-learn (sklearn)`: Implémentation des algorithmes de machine learning, y compris le clustering et la régression.
-- `Jupyter Notebook`:  Environnement de développement interactif pour l'analyse des données et la modélisation.
-
+## 🛠️ Technologies Used
+- Python: Main programming language.
+- Pandas: Data manipulation and processing.
+- Matplotlib: Additional data visualization.
+- Scikit-learn (sklearn): Machine learning algorithms, including clustering and regression.
+- Jupyter Notebook: Interactive environment for data analysis and modeling.
